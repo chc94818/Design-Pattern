@@ -5,11 +5,11 @@ public class SingletonDoubleCheckedLock {
 
     public static SingletonDoubleCheckedLock getInstance(){
 
-    	//²Ä¤@¼h§PÂ_¬°¤FÁ×§K¤£¥²­nªº¦P¨B
+    	//ç¬¬ä¸€å±¤åˆ¤æ–·ç‚ºäº†é¿å…ä¸å¿…è¦çš„åŒæ­¥
         if(instance == null){
             
             synchronized (SingletonDoubleCheckedLock.class){
-            	//²Ä¤G¼h§PÂ_¬°¤F¦bnullªºª¬ªp¤U«Ø¥ß¹ê¨Ò
+            	//ç¬¬äºŒå±¤åˆ¤æ–·ç‚ºäº†åœ¨nullçš„ç‹€æ³ä¸‹å»ºç«‹å¯¦ä¾‹
                 if(instance == null){
                     instance = new SingletonDoubleCheckedLock();
                 }

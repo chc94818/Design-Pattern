@@ -6,7 +6,7 @@ public class StaticInnerClass {
     }
 
     /**
-     * ÀRºAªº¤º³¡Ãş§O
+     * éœæ…‹çš„å…§éƒ¨é¡åˆ¥
      */
     private static class StaticInnerClassHolder{
         private static StaticInnerClass instance = new StaticInnerClass();

@@ -3,11 +3,13 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//�T�|��Ҧ�
+		//枚舉單例
 		SingletonEnum instance1 = SingletonEnum.INSTANCE;
 		SingletonEnum instance2 = SingletonEnum.INSTANCE;
 		System.out.println("Enum instance is same : " + (instance1==instance2));
 		
+		
+		//靜態內部類單例
 		Factory colaFactory = new SingletonFactory().getColaFactory();
 		Factory colaFactorySyn = new SingletonFactory().getColaFactory();
 		Factory colaFactoryAsyn = new SingletonFactory().getColaFactoryAsynchronize();

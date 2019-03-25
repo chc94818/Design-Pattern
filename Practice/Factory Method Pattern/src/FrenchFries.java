@@ -1,16 +1,16 @@
 public class FrenchFries implements Product{
 
-    //¹w³]¦³ÆQ¤Úªº
-    String state = "¦³ÆQªº";
-    //¹w³]ªº«Øºc
+    //é è¨­å±¬æ€§ æœ‰é¹½çš„
+    String state = "æœ‰é¹½";
+    //é è¨­çš„çµæ§‹
     protected FrenchFries(){}
-    //±a¤Jª¬ºAªº«Øºc
+    //è¨­ç½®ç‹€æ…‹çš„çµæ§‹
     protected FrenchFries(String state){
         this.state = state;
     }
 
     @Override
     public void describe() {
-        System.out.println("§Ú¬O"+ state +"Á¦±ø");
+        System.out.println("æˆ‘æ˜¯"+ state +"çš„è–¯æ¢");
     }
 }

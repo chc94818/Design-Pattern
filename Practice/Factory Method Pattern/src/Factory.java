@@ -1,4 +1,4 @@
 public interface Factory {
-    //¤u¼tªğ¦^°Ó«~
+    //ç²å¾—ç”¢å“
     public Product getProduct();
 }

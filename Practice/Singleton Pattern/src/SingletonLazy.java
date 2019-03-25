@@ -1,10 +1,10 @@
 public class SingletonLazy{
     private static SingletonLazy instance;
-    //¨p¦³ªº«Øºc¦¡Åı§O¤H¤£¯à³Ğ³y
+    //ç§æœ‰çš„å»ºæ§‹å¼è®“åˆ¥äººä¸èƒ½å‰µé€ 
     private SingletonLazy (){}
     
-    //¦]¬°¾ã­Ó¨t²Î³£­n¦s¨ú³o­ÓÃş§O¡A«Ü¥i¯à¦³¦h­Óprocess©Îthread¦P®É¦s¨ú
-    //¬°¤FÅı½uµ{¦w¥ş²K¥[synchronized¦b¦h½uµ{¤U½T«Oª«¥ó°ß¤@©Ê
+    //å› ç‚ºæ•´å€‹ç³»çµ±éƒ½è¦å­˜å–é€™å€‹é¡åˆ¥ï¼Œå¾ˆå¯èƒ½æœ‰å¤šå€‹processæˆ–threadåŒæ™‚å­˜å–
+    //ç‚ºäº†è®“ç·šç¨‹å®‰å…¨æ·»åŠ synchronizedåœ¨å¤šç·šç¨‹ä¸‹ç¢ºä¿ç‰©ä»¶å”¯ä¸€æ€§
     public static synchronized SingletonLazy getInstance(){
         if (instance == null)
         {

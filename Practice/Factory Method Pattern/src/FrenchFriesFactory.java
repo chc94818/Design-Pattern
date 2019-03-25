@@ -1,12 +1,12 @@
 public class FrenchFriesFactory implements Factory {
 
-    //ªğ¦^¤@¯ëªºÁ¦±ø
+	//è¿”å›ä¸€èˆ¬çš„è–¯æ¢
     @Override
     public Product getProduct() {
         return new FrenchFries();
     }
 
-    //ªğ¦^§Ú­Ì·Q­nªºª¬ºAªºÁ¦±ø..
+    //è¿”å›æˆ‘å€‘æƒ³è¦çš„ç‹€æ…‹çš„è–¯æ¢..
     public Product getProduct(String state) {
         return new FrenchFries(state);
     }

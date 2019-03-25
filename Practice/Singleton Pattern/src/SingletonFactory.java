@@ -8,7 +8,7 @@ public class SingletonFactory {
         return HamburgerFactory.humbergerFactory;
     }
     
-    //«D¦P¨B³æ¨Ò
+    //ç•°æ­¥éå–®ä¾‹å·¥å» 
     public ColaFactory getColaFactoryAsynchronize() {
     	return new ColaFactory();
     }
@@ -18,7 +18,7 @@ public class SingletonFactory {
     }
     
     
-    //¤º³¡ÀRºAÃş¹ê²{¦P¨B³æ¨Ò
+    //éœæ…‹å…§éƒ¨é¡å–®ä¾‹å·¥å» 
     private static class ColaFactory implements Factory{
 
         private static ColaFactory colaFactory = new ColaFactory();

@@ -1,12 +1,12 @@
 public class SingleObject {
  
-   //³Ğ«Ø SingleObject ªº¤@­Ó¹ï¶H
+   //å‰µå»º SingleObject çš„ä¸€å€‹å°è±¡
    private static SingleObject instance = new SingleObject();
  
-   //Åıºc³y¨ç¼Æ¬° private¡A³o¼Ë¸ÓÃş´N¤£·|³Q¹ê¨Ò¤Æ
+   //è®“æ§‹é€ å‡½æ•¸ç‚º privateï¼Œé€™æ¨£è©²é¡å°±ä¸æœƒè¢«å¯¦ä¾‹åŒ–
    private SingleObject(){}
  
-   //Àò¨ú°ß¤@¥i¥Îªº¹ï¶H
+   //ç²å–å”¯ä¸€å¯ç”¨çš„å°è±¡
    public static SingleObject getInstance(){
       return instance;
    }

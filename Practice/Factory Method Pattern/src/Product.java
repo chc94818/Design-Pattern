@@ -1,4 +1,4 @@
 public interface Product {
-    //±Ô­z¦Û¤v¬O¤°»ò°Ó«~
+    //æè¿°å•†å“æ€§è³ª
     public void describe();
 }
